@@ -1,0 +1,56 @@
+# Telemetry Data Analysis
+
+### Task 1
+
+Using a data unification algorithm, the tech team at our client, Daikibo, has converted all telemetry data collected from its 4 factories:
+•	Daikibo Factory Meiyo (Tokyo, Japan)
+•	Daikibo Factory Seiko (Osaka, Japan)
+•	Daikibo Berlin (Berlin, Germany)
+•	Daikibo Shenzhen (Shenzhen, China)
+Each location has 9 types of machines, sending a message every 10 mins. Daikibo has been collecting this data for one month (May 2021) and they've shared this data in the form of a single JSON file.
+
+### Business Questions
+
+The reason the client wanted to collect telemetry was to answer 2 questions:
+
+1.	In which location did machines break the most?
+2.	What are the machines that broke most often in that location?
+
+### Data Dictionary
+
+Here's a brief description of the dataset columns:
+
+| Column Name    | Description                             |
+| ------------   | -----------------------------------     |
+| Document Index | Unique identifier for each flower       |
+| Status         | Unicode character string                |
+| Temporature    | Double-precision floating-point number  |
+| Device ID      | Unicode character string                |
+| Device Type    | Unicode character string                |
+| Area           | Unicode character string                |
+| Country        | Unicode character string                |
+| Factory        | Unicode character string                |
+| Section        | Unicode character string                |
+| Timestamp      | Double-precision floating-point number  |
+| Unhealthy      | Calculated Field                        |
+
+	
+### Steps Taken to Analyze Data and answer Business Question
+
+1. I used TABLEAU in analyzing and insight visualizing 
+2. I Downloaded the daikibo-telemetry-data.json.zip file -> unzip -> and import it into Tableau
+3. I Created a calculated measure field called "Unhealthy" with a value of 10 for every unhealthy status (representing 10 mins of potential down time since the previous message).
+4. I used this formular: IF [Status] = "unhealthy" THEN 10 ELSE 0 END
+5. In the existing sheet, i created a bar chart called “Down Time per Factory”; using the "unhealthy" measure field and fatory field
+6. I Created a new sheet with a new bar chart called “Down Time per Device Type”. using the "unhealthy" measure field and device field
+7. Finally, I Created a Dashboard with the 2 previous sheets and set the first chart to be used as a filter (selecting a factory in the first chart shows only the down time of the machines in this factory in the second chart)
+
+### Insights
+
+Aftre the analysis; the following insights were derived;
+1.	It was discovered that Machines broke down the most in the Daikibo factory in Seiko. 
+2.	And it was also observed that the machine that broke down the most in the Daikibo factory is the Laserwelder with 480 downtime.
+
+
+
+
