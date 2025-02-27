@@ -5,9 +5,16 @@ Welcome to my repository showing ; two Simulation Projects i did with Deloitte A
 
 Here's an overview of the tasks and projects I worked on during my internship:
 
-1. The first project is Analysis of Telemetry Data; were i used Tableau to analyze the data and built a dashboard of two charts; using of the chats as a filter to the other chat.  
+1. The first project is the Analysis of Telemetry Data; were i used Tableau to analyze the data and built a dashboard of two charts; using the first chat as a filter to the other chat.  
 
-The second project was a.....
+[**Analysis of Telemetry Data**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Tableau%20Public%20-%20Book1%202_26_2025%203_09_55%20PM.png)
+
+The below dashboard view shows the filter in play.
+[**filtered Analysis of Telemetry Data**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Tableau%20Public%20-%20Book1%202_26_2025%203_10_37%20PM.png)
+
+to check out indept details of the above project; pls check out the DESCRIPTION FILE HERE!
+
+2. The second project was a.....
 
 
 
@@ -15,10 +22,6 @@ The second project was a.....
 
 
 
-1. [**Iris Flower Classification**](https://github.com/SUKHMAN-SINGH-1612/OIBSIP/tree/main/Task%201%20-%20Iris%20Flower%20Classification) -  Analyzing the features of the flowers based on the petal and sepal sizes and classifiying them in their respective species
-2. [**Car Price Prediction**](https://github.com/SUKHMAN-SINGH-1612/OIBSIP/tree/main/Task-2%20Car%20Price%20Prediction) -  Analyzing the car features like to predict the selling price of the car
-
-Each task folder contains Jupyter notebooks, data files, and relevant documentation.
 
 ## License
 
@@ -26,4 +29,4 @@ This repository is licensed under the MIT License. You are free to use and modif
 
 ---
 
-Feel free to explore the notebooks and projects in this repository. If you have any questions or would like to reach out, please don't hesitate to contact me. If you like my work, then do checkout my Data Science Projects Repository
+Feel free to explore the projects in this repository. If you have any questions or would like to reach out, please don't hesitate to contact me. 
