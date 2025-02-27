@@ -1,0 +1,32 @@
+TASK BACKGROUND
+
+After a worrisome number of internal complaints about gender inequality in terms of salary, Daikibo Industrials wanted our team to help them investigate.
+
+The Forensic Tech team has built an algorithm to quantify “level of gender pay equality” for most job roles within the company, in all company locations. 
+The Forensics lead then directed that i finish the job.
+
+The Forencic team have initially processed all data on employee compensation and generated an Excel file containing 3 columns:
+1.	Factory
+2.	Job Role
+3.	Equality Score (integer; ranging between -100 and +100; 0 is ideal)
+
+## BUSINESS QUESTION
+
+Daikibo Industrials wants to ascertain the level of gender inequality in terms of salary; and ranked interms of Fair, Unfair, and Highly Discriminative.
+
+## STEPS OF ANALYSIS
+
+1. I Created a 4th column (Equality class), classifying the equality score into 3 types, and assigning treshholds to each; 
+1. Fair (+-10)
+2. Unfair (<-10 AND >10)
+3. Highly Discriminative (<-20 AND >20)
+
+2. I wrote the following logic on the created 4th column cell (replicating it to other cells) to automatically sort the data according to the equality treshhold score.
+
+=IF(AND(C2>=-10,C2<=10),"Fair",IF(AND(C2>=-19, C2<=19),"Unfair",IF(AND(C2<=-20),"Highly Discriminative",IF(AND(C2>=20),"Highly Discriminative",""))))
+
+## RESULT
+
+we summarized the analysis using =COUNTIF(D:D, "Highly Discriminative"), =COUNTIF(D:D, "Unfair"), =COUNTIF(D:D, "Fair").
+Summarily, we discovered; 9 Highly Discrinative cases, 9 Unfair cases, and 19 Fair cases. And that these cases were scarttered across different factories. 
+
