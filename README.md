@@ -7,12 +7,15 @@ Here's an overview of the tasks and projects I worked on during my internship:
 
 1. The first project is the Analysis of Telemetry Data; were i used Tableau to analyze the data and built a dashboard of two charts; using the first chat as a filter to the other chat.  
 
-[**Analysis of Telemetry Data**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Tableau%20Public%20-%20Book1%202_26_2025%203_09_55%20PM.png)
+[**Analysis of Telemetry Data**]
+https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Tableau%20Public%20-%20Book1%202_26_2025%203_09_55%20PM.png
 
 The below dashboard view shows the filter in play.
-[**filtered Analysis of Telemetry Data**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Tableau%20Public%20-%20Book1%202_26_2025%203_10_37%20PM.png)
 
-to check out indept details of the above project; pls check out the DESCRIPTION FILE HERE!
+[**filtered Analysis of Telemetry Data**]
+(https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Tableau%20Public%20-%20Book1%202_26_2025%203_10_37%20PM.png)
+
+to check out indept details of the above project; pls check out the [**DESCRIPTION FILE HERE**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Task-Description)
 
 2. The second project was a.....
 
