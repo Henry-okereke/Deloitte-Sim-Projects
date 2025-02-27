@@ -16,7 +16,7 @@ The dashboard view below shows the filter in play.
 [**Filtered Analysis of Telemetry Data**]
 ![](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Tableau%20Public%20-%20Telemetry%20Data%20Dashboard%202_27_2025%203_47_13%20PM.png)
 
-## To check out indept details of the above project one; pls check out the [**DESCRIPTION FILE HERE**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Task-Description)
+### To check out indept details of the above project one; pls check out the [**DESCRIPTION FILE HERE**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%201%20-%20Analyzing%20Telemetry%20Data/Task-Description)
 
 
 ## Task 2
@@ -25,17 +25,14 @@ The second project was the completion of a forensic analysis; where i completed 
 [**Forensic Analysis using Excel**]
 ![](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%202%20Forensic%20Analysis/Task%202%20forensic%20screenshot.png)
 
-## To check out indept details of project two; pls check out the [**DESCRIPTION FILE HERE**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%202%20Forensic%20Analysis/Task-Description)
+### To check out indept details of project two; pls check out the [**DESCRIPTION FILE HERE**](https://github.com/Henry-okereke/Deloitte-Sim-Projects/blob/main/Task%202%20Forensic%20Analysis/Task-Description)
 
 
-
-
-
-
+---
 
 ## License
 
-This repository is licensed under the MIT License. You are free to use and modify the code and resources in this repository, but please provide appropriate attribution and adhere to the terms of the MIT License.
+This repository is licensed under the GNU General Public License v3.0. You are free to use and modify the code and resources in this repository, but please provide appropriate attribution and adhere to the terms of the GNU General Public License v3.0 License.
 
 ---
 
